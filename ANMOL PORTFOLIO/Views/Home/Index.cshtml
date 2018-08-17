@@ -1,0 +1,311 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Stanley - Bootstrap Freelancer Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="images/favicon.png" rel="icon">
+    <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="Content/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="Content/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+      Template Name: Stanley
+      Template URL: https://templatemag.com/stanley-bootstrap-freelancer-template/
+      Author: TemplateMag.com
+      License: https://templatemag.com/license/
+    ======================================================= -->
+</head>
+
+<body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">STANLEY</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <!-- +++++ Welcome Section +++++ -->
+    <div id="ww">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 centered">
+                    <img src="images/user.png" alt="Stanley">
+                    <h1>Anmol Dhillon</h1>
+                    <p>BACK END DEVELOPER</p>
+
+                </div>
+                <!-- /col-lg-8 -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /ww -->
+    <!-- +++++ Projects Section +++++ -->
+
+    <div class="container pt">
+        <div class="row mt centered">
+            <div class="col-lg-4">
+                <a href="work01.html" data-toggle="modal" data-target="#myModal"><img class="img-responsive" src="images/port01.jpg" alt="" /></a>
+                <p>JAVASCRIPT EXERCISES</p>
+            </div>
+            <div class="col-lg-4">
+                <a href="work01.html"><img class="img-responsive" src="images/port02.jpg" alt="" /></a>
+                <p>RAIDERS</p>
+            </div>
+            <div class="col-lg-4">
+                <a href="work01.html"><img class="img-responsive" src="images/port03.jpg" alt="" /></a>
+                <p>VIKINGS</p>
+            </div>
+        </div>
+        <!-- /row -->
+        <div class="row mt centered">
+            <div class="col-lg-4">
+                <a href="work01.html"><img class="img-responsive" src="images/port04.jpg" alt="" /></a>
+                <p>YODA</p>
+            </div>
+            <div class="col-lg-4">
+                <a href="work01.html"><img class="img-responsive" src="images/port05.jpg" alt="" /></a>
+                <p>EMPERORS</p>
+            </div>
+            <div class="col-lg-4">
+                <a href="work01.html"><img class="img-responsive" src="images/port06.jpg" alt="" /></a>
+                <p>CHIEFS</p>
+            </div>
+        </div>
+        <!-- /row -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content modal-lg">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Dynamic Tabs</h2>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#Math">Math</a></li>
+                            <li><a data-toggle="tab" href="#Fizzbuzz">FizzBuzz</a></li>
+                            <li><a data-toggle="tab" href="#Factorial">Factorial</a></li>
+                            <li><a data-toggle="tab" href="#Palindrome">Palindrome</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="Math" class="tab-pane fade in active">
+                                <h3>Math</h3>
+                                <p>Some Math Content</p>
+                                <div class="row">
+                                    <div class="col-md-12">Please Enetr 5 numbers</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <div class="row">
+                                            <div class="col-md-6">Enter Number 1:</div>
+                                            <div class="col-md-6"></div>
+                                            <input id="num1" type="number" name="name" value="" />
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">Enter Number 2:</div>
+                                            <div class="col-md-6"></div>
+                                            <input id="num2" type="number" name="name" value="" />
+                                        </div><div class="row">
+                                            <div class="col-md-6">Enter Number 3:</div>
+                                            <div class="col-md-6"></div>
+                                            <input id="num3" type="number" name="name" value="" />
+                                        </div><div class="row">
+                                            <div class="col-md-6">Enter Number 4:</div>
+                                            <div class="col-md-6"></div>
+                                            <input id="num4" type="number" name="name" value="" />
+                                        </div><div class="row">
+                                            <div class="col-md-6">Enter Number 5:</div>
+                                            <div class="col-md-6"></div>
+                                            <input id="num5" type="number" name="name" value="" />
+                                        </div>
+                                        <button id="btn">Calculate</button>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div id="sum"></div>
+                                        <div id="product"></div>
+                                        <div id="average"></div>
+                                        <div id="largest"></div>
+                                        <div id="smallest"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div id="Fizzbuzz" class="tab-pane fade">
+                                <h3>FizzBuzz</h3>
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <div class="row">
+                                            <div class="col-md-6"> Please enter num1</div>
+                                            <div class="col-md-6"><input id="number1" type="number" name="name" value="" /></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">  Please enter num2 </div>
+                                            <div class="col-md-6">
+                                                <input id="number2" type="number" name="name" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <button id="btn1"> Calculate</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div id="fizzbuzz"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="Factorial" class="tab-pane fade">
+                                <h3>Factorial</h3>
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <div class="row">
+                                            <div class="col-md-6">Please enter a number</div>
+                                            <div class="col-md-6">
+                                                <input id="num" type="number" name="name" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <button id="btnfact">Calculate</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-5">
+                                        <div id="factorial"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Palindrome" class="tab-pane fade">
+                                <h3>Palindrome</h3>
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <div class="row">
+                                            <div class="col-md-6">Please enter a word</div>
+                                            <div class="col-md-6">
+                                                <input id="sometext" type="text" name="name" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <button id="btn3">Check it</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div id="palindrome"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /container -->
+        <!-- +++++ Footer Section +++++ -->
+
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h4>My Bunker</h4>
+                        <p>
+                            1748 Jefferson Avenue,<br /> +34 9054 5455, <br /> Madrid, Spain.
+                        </p>
+                    </div>
+                    <!-- /col-lg-4 -->
+
+                    <div class="col-lg-4">
+                        <h4>My Links</h4>
+                        <p>
+                            <a href="#">Dribbble</a><br />
+                            <a href="#">Twitter</a><br />
+                            <a href="#">Facebook</a>
+                        </p>
+                    </div>
+                    <!-- /col-lg-4 -->
+
+                    <div class="col-lg-4">
+                        <h4>About Stanley</h4>
+                        <p>This cute theme was created to showcase your work in a simple way. Use it wisely.</p>
+                    </div>
+                    <!-- /col-lg-4 -->
+                </div>
+            </div>
+        </div>
+
+        <div id="copyrights">
+            <div class="container">
+                <p>
+                    &copy; Copyrights <strong>Stanley</strong>. All Rights Reserved
+                </p>
+                <div class="credits">
+                    <!--
+                  You are NOT allowed to delete the credit link to TemplateMag with free version.
+                  You can delete the credit link only if you bought the pro version.
+                  Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/stanley-bootstrap-freelancer-template/
+                  Licensing information: https://templatemag.com/license/
+                -->
+                    Created with Stanley template by <a href="https://templatemag.com/">TemplateMag</a>
+                </div>
+            </div>
+        </div>
+        <!-- / copyrights -->
+        <!-- JavaScript Libraries -->
+        <script src="Scripts/jquery.min.js"></script>
+        <script src="Scripts/bootstrap.min.js"></script>
+        <script src="Scripts/validate.js"></script>
+        <script src="Scripts/easing.min.js"></script>
+        <script src="Scripts/maths.js"></script>
+
+        <!-- Template Main Javascript File -->
+        <script src="Scripts/main.js"></script>
+
+</body>
+</html>
