@@ -187,6 +187,7 @@
     <Content Include="images\6.jpg" />
     <Content Include="images\7.jpg" />
     <Content Include="images\8.jpg" />
+    <Content Include="images\anmol.PNG" />
     <Content Include="images\apple-touch-icon.png" />
     <Content Include="images\bg-small.jpg" />
     <Content Include="images\bg.jpg" />
@@ -195,10 +196,14 @@
     <Content Include="images\facebook.png" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\favicon.png" />
+    <Content Include="images\fir.png" />
+    <Content Include="images\futuregrind.jpg" />
     <Content Include="images\google maps.PNG" />
     <Content Include="images\google-plus.png" />
     <Content Include="images\grabbing.png" />
     <Content Include="images\img-bg.jpg" />
+    <Content Include="images\javasa.png" />
+    <Content Include="images\javax.png" />
     <Content Include="images\linkedin.png" />
     <Content Include="images\loader.gif" />
     <Content Include="images\parallax.jpg" />
@@ -214,6 +219,8 @@
     <Content Include="images\portfolio4.jpg" />
     <Content Include="images\portfolio5.jpg" />
     <Content Include="images\portfolio6.jpg" />
+    <Content Include="images\ress.jpg" />
+    <Content Include="images\ressx.PNG" />
     <Content Include="images\spinner.gif" />
     <Content Include="images\testimonial.jpg" />
     <Content Include="images\testimonial2.jpg" />
@@ -221,6 +228,7 @@
     <Content Include="images\timer.png" />
     <Content Include="images\twitter.png" />
     <Content Include="images\user.png" />
+    <Content Include="images\userme.JPG" />
     <Content Include="images\wordpress.png" />
     <Content Include="images\W_2014_365.jpg" />
     <Content Include="images\zoom.png" />
@@ -241,6 +249,7 @@
     <Content Include="fonts\ecoicons.eot" />
     <Content Include="fonts\ecoicons.ttf" />
     <Content Include="fonts\ecoicons.woff" />
+    <Content Include="Resume\ASDX.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\classie.js" />
     <Content Include="Scripts\custom.js" />
@@ -285,9 +294,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\GridDemo.cshtml" />
-    <Content Include="Views\Home\GridDemo2.cshtml" />
-    <Content Include="Views\Exercises\JSExercises.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
